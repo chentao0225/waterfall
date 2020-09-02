@@ -1,0 +1,41 @@
+html,
+body {
+  /* height: 100%; */
+  background-color: #e4e4e4;
+}
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 20px auto;
+}
+.container .column {
+  box-sizing: border-box;
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+}
+.container .column:nth-last-child(1) {
+  margin-right: 0;
+}
+.container .column .item {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 10px #000;
+  background-color: #fff;
+}
+.container .column .item .imgBox {
+  /* height: 300px; */
+  background: url("../img/default.gif") no-repeat center center #eee;
+  overflow: hidden;
+}
+.container .column .item .imgBox img {
+  /* display: none; */
+  width: 100%;
+}
+.container .column .item p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+  line-height: 20px;
+}
